@@ -1,4 +1,4 @@
-//Arrow Function
+// Arrow Function
 
 let desconto = (preço, desconto) => {
     return preço - (preço * desconto) / 100
