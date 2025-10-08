@@ -1,5 +1,5 @@
 
-//declaration
+//declaration function
 
 function soma(x, y) {
     return x + y;
