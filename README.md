@@ -54,4 +54,4 @@ console.log(divisão(20, 2))
 A arrow function deve ser criada através de uma variável e em seguida, recebe os parâmetros entre parênteses, seguidos do operador =>.
 O corpo da função pode ser uma expressão ou um bloco de código com return.
 
-[Link dos códigos acimma](https://github.com/Adriano-Felisberto/atividade01_js/tree/Adriano-Felisberto/I.A-ECIT/FuncoesJs/src)
+[Link dos códigos acima](https://github.com/Adriano-Felisberto/atividade01_js/tree/Adriano-Felisberto/I.A-ECIT/FuncoesJs/src)
