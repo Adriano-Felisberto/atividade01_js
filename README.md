@@ -6,7 +6,7 @@ As funções recebem parâmetros, que são valores de entrada e devem retornar a
 ### declaration(forma antiga)
 
 É a forma classica de se declarar qualquer função
-```
+```js
 function soma(x, y) {
     return x + y;
 }
@@ -16,7 +16,7 @@ Esse tipo de função tem hoisting, ou seja, independentemente do lugar onde o c
 
 ### expression(forma contemporânea)
 
-```
+```js
 let nome = function(nome) {
     return "meu nome é " + nome;
 }
@@ -27,10 +27,16 @@ O nome da função é opcional, se não for declarado a função continua funcio
 
 ### arrow(forma moderna)
 
-```
+```js 
 let desconto = (preço, desconto) => {
     return preço - (preço * desconto) / 100
 }
 ```
 A arrow function deve ser criada através de uma variável e em seguida, recebe os parâmetros entre parênteses, seguidos do operador =>.
 O corpo da função pode ser uma expressão ou um bloco de código com return.
+
+## exemplo de apenas uma linha da arrow
+```js
+let divisão = (n1, n2) => n1 / n2
+console.log(divisão(20, 2))
+```
