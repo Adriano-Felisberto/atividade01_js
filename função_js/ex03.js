@@ -1,6 +1,0 @@
-// arrow
-
-let desconto = (preço, desconto) => {
-    return preço - (preço * desconto) / 100
-}
-console.log(desconto(500, 15))
