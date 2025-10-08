@@ -12,7 +12,7 @@ function soma(x, y) {
 ```
 Deve ser declarada sem uma variável, apenas com os parâmetros.
 
-### expression(forma comteporania)
+### expression(forma contemporânea)
 
 ```
 let nome = function(nome) {
