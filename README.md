@@ -31,6 +31,8 @@ O nome da função é opcional, se não for declarado a função continua funcio
 let desconto = (preço, desconto) => {
     return preço - (preço * desconto) / 100
 }
+console.log(desconto(500, 15))
+
 ```
 A arrow function deve ser criada através de uma variável e em seguida, recebe os parâmetros entre parênteses, seguidos do operador =>.
 O corpo da função pode ser uma expressão ou um bloco de código com return.
