@@ -21,7 +21,7 @@ console.log(soma(2,2))
 
 ```
 Deve ser declarada com o nome da função e seus parâmetros, se necessário.
-Esse tipo de função tem hoisting, ou seja, independentemente do lugar onde o código esteja, o JavaScript vai “puxar” a função caso ela seja chamada é porque ele “move” a função para o topo durante a execução.
+Esse tipo de função tem hoisting, ou seja, independentemente do lugar onde o código esteja, o JavaScript vai “move” a função para o topo durante a execução.
 
 ### expression(forma contemporânea)
 
