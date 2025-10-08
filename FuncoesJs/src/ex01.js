@@ -1,4 +1,3 @@
-//declaration, expression e arrow.
 
 //declaration
 
