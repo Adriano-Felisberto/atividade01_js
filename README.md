@@ -1,5 +1,5 @@
-# FuncoesJs
-
+# Funções JS
+Declaration Function
 Definição de função: é um bloco de código destinado a realizar tarefas específicas, que podemos reaproveitar para que os desenvolvedores não precisem escrever o mesmo código varias vezes.
 As funções recebem parâmetros, que são valores de entrada e devem retornar algum resultado. Os valores passados para a função são denominados argumentos.
 ## formula de declaração de funções
@@ -9,7 +9,7 @@ function nome_da_função(parametros) {
 
 }
 ```
-### declaration(forma antiga)
+### Declaration Function(forma antiga)
 
 É a forma classica de se declarar qualquer função
 ```js
@@ -23,7 +23,7 @@ console.log(soma(2,2))
 Deve ser declarada com o nome da função e seus parâmetros, se necessário.
 Esse tipo de função tem hoisting, ou seja, independentemente do lugar onde o código esteja, o JavaScript vai “move” a função para o topo durante a execução.
 
-### expression(forma contemporânea)
+### Expression Function(forma contemporânea)
 
 ```js
 let nome = function(nome) {
@@ -36,7 +36,7 @@ A function expression deve ser criada através de uma variável, que recebe a fu
 dessa maneira, não é preciso declarar o nome da função, apenas passar os parâmetros se necessário.
 O nome da função é opcional, se não for declarado a função continua funcionando normalmente.
 
-### arrow(forma moderna)
+### Arrow Function(forma moderna)
 
 ```js 
 let desconto = (preço, desconto) => {
@@ -46,7 +46,7 @@ console.log(desconto(500, 15))
 
 ```
 
-## exemplo de apenas uma linha da arrow
+## Exemplo de apenas uma linha da Arrow
 ```js
 let divisão = (n1, n2) => n1 / n2
 console.log(divisão(20, 2))
