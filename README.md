@@ -39,11 +39,12 @@ let desconto = (preço, desconto) => {
 console.log(desconto(500, 15))
 
 ```
-A arrow function deve ser criada através de uma variável e em seguida, recebe os parâmetros entre parênteses, seguidos do operador =>.
-O corpo da função pode ser uma expressão ou um bloco de código com return.
 
 ## exemplo de apenas uma linha da arrow
 ```js
 let divisão = (n1, n2) => n1 / n2
 console.log(divisão(20, 2))
 ```
+A arrow function deve ser criada através de uma variável e em seguida, recebe os parâmetros entre parênteses, seguidos do operador =>.
+O corpo da função pode ser uma expressão ou um bloco de código com return.
+
