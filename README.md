@@ -2,7 +2,13 @@
 
 Definição de função: é um bloco de código destinado a realizar tarefas específicas, que podemos reaproveitar para que os desenvolvedores não precisem escrever o mesmo código varias vezes.
 As funções recebem parâmetros, que são valores de entrada e devem retornar algum resultado. Os valores passados para a função são denominados argumentos.
+## formula de declaração de funções
 
+```js
+function nome_da_função(parametros) {
+
+}
+```
 ### declaration(forma antiga)
 
 É a forma classica de se declarar qualquer função
